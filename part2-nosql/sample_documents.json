@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "prod_elec_001",
+    "category": "Electronics",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "sku": "SNY-WH1000XM5-BLK",
+    "price": 29990,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 42,
+    "images": [
+      "https://cdn.example.com/products/sony-wh1000xm5-front.jpg",
+      "https://cdn.example.com/products/sony-wh1000xm5-side.jpg"
+    ],
+    "specifications": {
+      "connectivity": "Bluetooth 5.2",
+      "driver_size_mm": 30,
+      "frequency_response": "4 Hz – 40,000 Hz",
+      "battery_life_hours": 30,
+      "charging_time_hours": 3.5,
+      "noise_cancellation": true,
+      "water_resistance": "IPX4",
+      "voltage_input": "5V DC",
+      "weight_grams": 250,
+      "color": "Midnight Black"
+    },
+    "warranty": {
+      "duration_months": 12,
+      "type": "Manufacturer Warranty",
+      "covers": ["manufacturing defects", "hardware failure"],
+      "excludes": ["physical damage", "water damage beyond IPX4 rating"]
+    },
+    "in_box": ["Headphones", "Carrying case", "USB-C charging cable", "3.5mm audio cable", "Airplane adapter"],
+    "ratings": {
+      "average": 4.6,
+      "total_reviews": 2318
+    },
+    "created_at": "2024-03-15T10:00:00Z",
+    "updated_at": "2025-01-08T14:22:00Z"
+  },
+
+  {
+    "_id": "prod_clth_001",
+    "category": "Clothing",
+    "name": "Men's Slim Fit Cotton Formal Shirt",
+    "brand": "Arrow",
+    "sku": "ARW-SLIM-WHT-L",
+    "price": 1299,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 115,
+    "images": [
+      "https://cdn.example.com/products/arrow-shirt-white-front.jpg",
+      "https://cdn.example.com/products/arrow-shirt-white-back.jpg"
+    ],
+    "specifications": {
+      "fabric": "100% Cotton",
+      "fabric_weight_gsm": 120,
+      "fit": "Slim Fit",
+      "collar": "Spread Collar",
+      "sleeve": "Full Sleeve",
+      "pattern": "Solid",
+      "occasion": ["Formal", "Business Casual"],
+      "care_instructions": ["Machine wash cold", "Do not bleach", "Tumble dry low", "Iron on medium heat"]
+    },
+    "variants": [
+      { "size": "S", "color": "White", "sku_variant": "ARW-SLIM-WHT-S", "stock": 18 },
+      { "size": "M", "color": "White", "sku_variant": "ARW-SLIM-WHT-M", "stock": 34 },
+      { "size": "L", "color": "White", "sku_variant": "ARW-SLIM-WHT-L", "stock": 28 },
+      { "size": "XL", "color": "White", "sku_variant": "ARW-SLIM-WHT-XL", "stock": 22 },
+      { "size": "L", "color": "Light Blue", "sku_variant": "ARW-SLIM-BLU-L", "stock": 13 }
+    ],
+    "size_guide": {
+      "S":  { "chest_cm": 91, "shoulder_cm": 42 },
+      "M":  { "chest_cm": 96, "shoulder_cm": 44 },
+      "L":  { "chest_cm": 101, "shoulder_cm": 46 },
+      "XL": { "chest_cm": 106, "shoulder_cm": 48 }
+    },
+    "ratings": {
+      "average": 4.2,
+      "total_reviews": 876
+    },
+    "created_at": "2024-06-01T09:00:00Z",
+    "updated_at": "2024-12-19T11:45:00Z"
+  },
+
+  {
+    "_id": "prod_groc_001",
+    "category": "Groceries",
+    "name": "Organic Steel Cut Oats",
+    "brand": "True Elements",
+    "sku": "TE-OATS-SC-1KG",
+    "price": 349,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 230,
+    "images": [
+      "https://cdn.example.com/products/true-elements-oats-front.jpg"
+    ],
+    "packaging": {
+      "weight_grams": 1000,
+      "type": "Resealable Zip Pouch",
+      "recyclable": true
+    },
+    "dates": {
+      "manufactured": "2025-01-10",
+      "best_before": "2026-01-09",
+      "shelf_life_days": 365
+    },
+    "storage_instructions": "Store in a cool, dry place. Once opened, keep sealed and use within 45 days.",
+    "certifications": ["FSSAI Certified", "USDA Organic", "Non-GMO"],
+    "nutritional_info": {
+      "serving_size_grams": 40,
+      "servings_per_pack": 25,
+      "per_serving": {
+        "calories_kcal": 150,
+        "protein_g": 5,
+        "carbohydrates_g": 27,
+        "of_which_sugars_g": 0.5,
+        "dietary_fiber_g": 4,
+        "fat_g": 2.5,
+        "of_which_saturated_g": 0.5,
+        "sodium_mg": 0
+      }
+    },
+    "allergens": ["Contains Gluten (Oats)"],
+    "suitable_for": ["Vegan", "Vegetarian", "Gluten-Sensitive (not Celiac)"],
+    "ingredients": ["Organic Steel Cut Oats"],
+    "country_of_origin": "India",
+    "ratings": {
+      "average": 4.5,
+      "total_reviews": 1042
+    },
+    "created_at": "2025-01-15T08:30:00Z",
+    "updated_at": "2025-02-02T16:00:00Z"
+  }
+]
